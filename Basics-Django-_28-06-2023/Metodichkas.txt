@@ -1,0 +1,31 @@
+Cоздать вертуальное окружение venv
+python -m venv venv
+
+Активировать виртуальное окружение venv
+.\venv\Scripts\activate
+
+Создать фаил |.gitignore| в него записать |venv/| (для игнорирования venv) в папку где расположен venv.
+.gitignore
+
+Создать фаил |requirements.txt| в нем записть какие библиотеки используються наприменр Dgango.
+Чтобы установить все библиотеки из этого документа, нужно ввести команду в терменале |pip install -r requirements.tx|
+pip install -r requirements.txt
+
+Чтобы создать приложение в django нужно ввестикод в терминал
+django-admin startproject название приложения
+
+Создать папку example
+mkdir example
+
+Перейти в папку example
+cd \example
+
+Создать в папке config проект с названием config в текущей дириктории - " . "
+django-admin startproject config .
+
+Чтобы запустить или проверить проект нужно записать в терминале этот код
+python manage.py runserver
+
+Чтобы созать проект app
+django-admin startapp app
+
